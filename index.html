@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cart System</title>
-  <link rel="stylesheet" href="src/output.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cart System</title>
+    <link rel="stylesheet" href="src/output.css" />
 </head>
-<body>
-    <section class="bg-blue-500 p-6 mx-10 my-20 rounded-lg">
-        <h1 class="text-center text-3xl font-bold text-white mb-6">
-        Cart System
-        </h1>
 
-        <div class="flex gap-4">
+<body class="bg-gray-300">
+    <main class="bg-blue-500 p-6 mx-10 my-20 rounded-lg" id="main">
+        <h1 class="text-center text-3xl font-bold text-white mb-6">Cart System</h1>
+        <section class="flex gap-4">
             <article class="flex-1 bg-gray-100 p-6">
-                <h3 class="text-center text-xl font-semibold mb-4">Products</h3>    
+                <h3 class="text-center text-xl font-semibold mb-4">Products</h3>
+                <article class="grid grid-cols-3 gap-4">
+                    <div class="bg-white p-4 rounded shadow">
+                        <h5>Name:</h5>
+                        <p>Price:8</p>
+                    </div>
 
-            <section class="grid grid-cols-3 gap-4">
-                <div class="bg-white p-4 rounded shadow">
-                    <p>Name:</p>
-                    <p>Price:</p>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <p>Name:</p>
-                    <p>Price:</p>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <p>Name:</p>
-                    <p>Price:</p>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <p>Name:</p>
-                    <p>Price:</p>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <p>Name:</p>
-                    <p>Price:</p>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <p>Name:</p>
-                    <p>Price:</p>
-                </div>
-            
-                
-            </section>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h5>Name: WEYO</h5>
+                        <p>Price: 10</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h5>Name: WAN</h5>
+                        <p>Price: 12</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h5>Name: WEN</h5>
+                        <p>Price: 14</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h5>Name: WIN</h5>
+                        <p>Price: 16</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h5>Name: WON</h5>
+                        <p>Price:</p>
+                    </div>
+
+                </article>
 
             </article>
 
             <article class="flex-1 bg-gray-200 p-6">
                 <h3 class="text-center text-xl font-semibold mb-4">Cart</h3>
-             </article>
-        </div>
-    </section>
+            </article>
+        </section>
+    </main>
+    <script src="process.js"></script>
 </body>
+
 </html>
